@@ -1,7 +1,7 @@
 # Secure FOTA for Automotive - Graduation Project
 
 <p align="center">
-  <img width="650" src="path/to/project/image.png">
+  <img width="650" src="https://www.embitel.com/wp-content/uploads/cloud-based-scalable-min.png">
 </p>
 
 ## Project Overview
