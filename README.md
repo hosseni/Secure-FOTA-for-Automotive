@@ -35,7 +35,7 @@ Safety is of paramount importance in automotive systems. To address this aspect,
 ### 3. MP3 Player Functionality
 
 <p align="center">
-  <img width="500" src="path/to/mp3-player/image.png">
+  <img width="500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIgILiQvvCLbbaiPZr_HUdNMCofKioiGZSjg&usqp=CAU">
 </p>
 
 Entertainment is an integral part of the driving experience. As such, we designed and implemented an MP3 player application within our project. This application allows users to enjoy their favorite music while on the road. The MP3 player supports various audio formats and provides an easy-to-use interface for convenient music playback and control.
