@@ -19,7 +19,7 @@ To create a comprehensive and realistic testing environment, we developed additi
 ### 1. Dashboard using Nextion Screen
 
 <p align="center">
-  <img width="500" src="path/to/dashboard/image.png">
+  <img width="500" src="E:\Graduation Project Models\FEE\Annotation 2023-08-21 173209.png">
 </p>
 
 We designed and implemented an interactive dashboard interface utilizing a Nextion screen. This dynamic dashboard displays real-time information crucial to the driving experience, such as speed, fuel level, temperature, and more. By providing an intuitive and visually appealing interface, we aimed to enhance user engagement and facilitate seamless interaction with critical vehicle metrics.
