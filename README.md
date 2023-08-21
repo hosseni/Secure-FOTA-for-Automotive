@@ -27,7 +27,7 @@ We designed and implemented an interactive dashboard interface utilizing a Nexti
 ### 2. Object Avoidance System
 
 <p align="center">
-  <img width="500" src="path/to/object-avoidance/image.png">
+  <img width="500" src="https://i.ytimg.com/vi/bRZNyQtwZVE/maxresdefault.jpg">
 </p>
 
 Safety is of paramount importance in automotive systems. To address this aspect, we integrated an object avoidance system into our project. Leveraging advanced sensor technologies, we developed algorithms that detect obstacles in the vehicle's path and enable intelligent maneuvering to avoid collisions. This feature contributes significantly to a secure and accident-free driving experience.
