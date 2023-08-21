@@ -46,6 +46,3 @@ Entertainment is an integral part of the driving experience. As such, we designe
 
 Thank you for taking the time to explore my journey and the remarkable outcomes achieved in this graduation project. Your interest and support are greatly appreciated.
 
-## Animation (Click to Play)
-
-[![Animation](path/to/animation.gif)](path/to/animation/video.mp4)
