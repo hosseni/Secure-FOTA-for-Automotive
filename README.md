@@ -45,4 +45,3 @@ Entertainment is an integral part of the driving experience. As such, we designe
 "Secure FOTA for Automotive" project showcases the integration of enhanced security measures into the bootloader system and the creation of simulated automotive functionalities. By emphasizing security, realism, and user engagement, this project contributes to the advancement of secure firmware updates and safe driving experiences in the automotive industry.
 
 Thank you for taking the time to explore my journey and the remarkable outcomes achieved in this graduation project. Your interest and support are greatly appreciated.
-
