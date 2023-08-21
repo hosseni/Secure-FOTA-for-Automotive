@@ -1,0 +1,392 @@
+/* =============================================================================================================================================== */
+/* =======================================================   GENERAL=STYLE    ==================================================================== */
+/* =============================================================================================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem 5rem;
+}
+
+.grid--2--col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  /* justify-content: center; */
+  column-gap: 10rem;
+  row-gap: 9.6rem;
+}
+
+/* =============================================================================================================================================== */
+/* =======================================================     NAVIGATION     ==================================================================== */
+/* =============================================================================================================================================== */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+
+  /* Because we want header to be sticky later */
+  height: 10rem;
+  padding: 0 10rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #888;
+}
+
+/* =============================================================================================================================================== */
+/* =======================================================    HERO-SECTION    ==================================================================== */
+/* =============================================================================================================================================== */
+
+.section-hero {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-main-style {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10rem;
+}
+
+.hero-h1 {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #ddd;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  margin-top: 18rem;
+  margin-bottom: 3.2rem;
+}
+
+.hero-p {
+  font-size: 2.5rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.main-page {
+  background-image: url(images/photo_2023-07-15_09-34-04.jpg);
+  background-size: 100% 100%;
+  /* background-position: 100% 100%; */
+  height: 100vh;
+}
+
+.nav-logo-text {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ccc;
+}
+
+/* =============================================================================================================================================== */
+/* =======================================================    LOGO-SECTION    ==================================================================== */
+/* =============================================================================================================================================== */
+
+.logos-section h2 {
+  color: #777;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.5rem;
+  filter: brightness(0);
+  opacity: 50%;
+  margin-bottom: 4rem;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* =============================================================================================================================================== */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.login-section {
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(images/photo_2023-07-15_08-36-09.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 470px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.form-heading {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.login-section input {
+  position: absolute;
+  border: none;
+  width: 250px;
+  height: 35px;
+  border-bottom: 2px solid #0094ff;
+  background: none;
+  padding: 5px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+input[type="text"] {
+  top: 160px;
+  left: 70px;
+}
+
+input[type="password"] {
+  top: 230px;
+  left: 70px;
+}
+
+input[value="login"] {
+  position: absolute;
+  top: 350px;
+  left: 140px;
+  width: 130px;
+  height: 35px;
+  margin-top: 20px;
+  background: #0077ff;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+input[value="login"]:hover {
+  background: #fff;
+  color: #0077ff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+/* ?????????????????????????????????????????????????????????????????????????????? */
+
+.update-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #999;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.update-contain {
+  margin-top: 5rem;
+  background-image: url(images/photo_2023-07-15_08-36-27.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.update-form-contain {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 470px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding-top: 2rem;
+}
+
+.update-form-contain label {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.selection-part {
+  margin: 3rem 3rem;
+}
+
+.secound-part {
+  margin: 3rem 3rem 0 3rem;
+}
+
+.update-choosing button {
+  margin: 5rem 15rem 0;
+  padding: 1rem;
+  border-radius: 2rem;
+  /* align-items: center; */
+}
+.update-uploading button {
+  margin: 1rem 16rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.form-heading {
+  font-size: 3rem;
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+/* 
+/* =============================================================================================================================================== */
+/* ====================================================    HOW-WORK-SECTION    =================================================================== */
+/* =============================================================================================================================================== */
+.how-work-section {
+  margin-top: 5rem;
+  /* background-color: #555; */
+}
+.subheader {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  color: #222;
+}
+
+.how-work-section h2 {
+  font-size: 4rem;
+  color: #333;
+  font-weight: 800;
+  margin: 1.5rem 0 20rem 0;
+}
+
+.how-work-design {
+  margin-bottom: 20rem;
+}
+
+.number {
+  font-size: 10rem;
+  color: #888;
+  font-weight: 700;
+}
+
+.how-work-design h3 {
+  font-family: "Rubik", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.how-work-info :last-child {
+  color: #333;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.how-work-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-work-img img {
+  width: 80%;
+}
+
+.how-work-img-box {
+  position: relative;
+}
+
+.how-work-img::after {
+  content: "";
+  height: 55rem;
+  width: 55rem;
+  border-radius: 50%;
+  background-color: #444;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.how-work-img::before {
+  content: "";
+  height: 40rem;
+  width: 40rem;
+  border-radius: 50%;
+  background-color: #888;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* ==================================================================================== */
+/* .people {
+  margin-bottom: 100px;
+  width: 70%;
+  background-color: #888;
+  position: relative;
+}
+.people-image img {
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.people-dic {
+  text-align: center;
+} */

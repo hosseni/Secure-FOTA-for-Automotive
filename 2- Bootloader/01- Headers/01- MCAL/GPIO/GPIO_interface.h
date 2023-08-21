@@ -1,0 +1,72 @@
+/*
+ * GPIO_interface.h
+ *
+ *  Created on: Aug 14, 2022
+ *      Author: ELHOSSENI
+ */
+
+#ifndef MCAL_GPIO_GPIO_INTERFACE_H_
+#define MCAL_GPIO_GPIO_INTERFACE_H_
+
+typedef enum
+{
+	 GPIO_U8_PORTA = 0,
+	 GPIO_U8_PORTB,
+	 GPIO_U8_PORTC
+}GPIO_PORT_t;
+
+typedef enum
+{
+	GPIO_U8_PIN0,
+	GPIO_U8_PIN1,
+	GPIO_U8_PIN2,
+	GPIO_U8_PIN3,
+	GPIO_U8_PIN4,
+	GPIO_U8_PIN5,
+	GPIO_U8_PIN6,
+	GPIO_U8_PIN7,
+	GPIO_U8_PIN8,
+	GPIO_U8_PIN9,
+	GPIO_U8_PIN10,
+	GPIO_U8_PIN11,
+	GPIO_U8_PIN12,
+	GPIO_U8_PIN13,
+	GPIO_U8_PIN14,
+	GPIO_U8_PIN15
+}GPIO_PIN_t;
+
+typedef enum
+{
+	GPIO_INPUT_ANALOG        = 0b0000,
+	GPIO_INPUT_FLOATING      = 0b0100,
+	GPIO_INPUT_PULL_DOWN     = 0b1000,
+
+	GPIO_OUTPUT_PP_10MHZ	 = 0b0001,
+	GPIO_OUTPUT_OD_10MHZ 	 = 0b0101,
+	GPIO_OUTPUT_AF_PP_10MHZ  = 0b1001,
+	GPIO_OUTPUT_AF_OD_10MHZ  = 0b1101,
+
+	GPIO_OUTPUT_PP_2MHZ 	= 0b0010,
+	GPIO_OUTPUT_OD_2MHZ 	= 0b0110,
+	GPIO_OUTPUT_AF_PP_2MHZ  = 0b1010,
+	GPIO_OUTPUT_AF_OD_2MHZ  = 0b1110,
+
+	GPIO_OUTPUT_PP_50MHZ    = 0b0011,
+	GPIO_OUTPUT_OD_50MHZ    = 0b0111,
+	GPIO_OUTPUT_AF_PP_50MHZ = 0b1011,
+	GPIO_OUTPUT_AF_OD_50MHZ = 0b1111
+
+}GPIO_DIRECTION_t;
+typedef enum
+{
+	GPIO_LOW,
+	GPIO_HIGH
+}GPIO_VALUE_t;
+
+
+void MGPIO_voidSetPinDirection(GPIO_PORT_t PortID, GPIO_PIN_t PinID, GPIO_DIRECTION_t Direction);
+void MGPIO_voidSetPinValue(u8 copy_u8PortID, u8 copy_u8PinID, u8 copy_u8Value);
+u8 MGPIO_u8GetPinValue(u8 copy_u8PortID, u8 copy_u8PinID);
+void MGPIO_voidSetPortDirection (GPIO_PORT_t portID, GPIO_DIRECTION_t Direction);
+void MGPIO_voidSetPortValue (GPIO_PORT_t portID, u8 value);
+#endif /* MCAL_GPIO_GPIO_INTERFACE_H_ */
